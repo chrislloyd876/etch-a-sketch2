@@ -1,0 +1,24 @@
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#container{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.rowBox{
+    border: 1px solid beige;
+    background-color: rgb(180, 180, 167);
+    height: 50px;
+    display: flex;
+}
+
+.colBox{
+        border: 1px solid beige;
+        background-color: lightblue;
+        padding: 1rem 0;
+        flex: 1;
+}
